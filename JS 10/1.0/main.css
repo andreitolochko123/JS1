@@ -1,0 +1,103 @@
+body{
+  font-family: arial;
+}
+.content{
+  width: 700px;
+  margin: 0 auto;
+}
+.menu{
+  width: 180px;
+  padding-right: 20px;
+  float: left;
+  min-height: 200px;
+}
+.main{
+  width: 500px;
+  float: left;
+  min-height: 200px;
+}
+.button{
+  width: 100%;
+  color: #007bff;
+  text-align: left;
+  padding: 7px 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button:focus{
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+.form{
+  background: #e9ecef;
+  border-radius: 4px;
+  height: 150px;
+  padding: 10px;
+}
+h2{
+  font-size: 40px;
+  margin: 0;
+  padding-top: 15px;
+}
+input{
+  border: 1px solid #d3d8dd;
+  border-radius: 2px;
+  outline: none;
+  padding: 5px 7px;
+  margin-right: 5px;
+}
+.num{
+  width: 50px;
+}
+.b_form{
+  color: white;
+  padding: 5px 17px;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+.green{
+  background: #28a745;
+}
+.yellow{
+  background: #ffc107;
+}
+.red{
+  background: #dc3545;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+th{
+  background: #212529;
+  color: white;
+  padding: 10px 5px;
+}
+td{
+  color: #4a4d50;
+  text-align: center;
+  padding: 10px 5px;
+}
+.action{
+  height: 30px;
+  width: 30px;
+  line-height: 29px;
+  font-size: 18px;
+  color: white;
+  font-weight: 900;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.foot{
+  background: #dadada;
+}
+.foot>td{
+  text-align: right;
+}

@@ -1,0 +1,12 @@
+body{
+  background: skyblue;
+}
+input{
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+}
+td{
+  padding: 5px 10px;
+  border: 2px solid black;
+}

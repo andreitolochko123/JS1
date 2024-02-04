@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS 3</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<audio loop id="myAudio">
+		<source src="zvonok.mp3" type="audio/mpeg">
+	</audio>
+
+<div class="content">
+	<input type="number" class="corr" placeholder="Кол-во секунд" id="number">
+	<input type="button" value="Установить время" id="setTime">
+	<input type="button" value="Старт" id="startTimer">
+	<input type="button" value="Стоп" id="stopTimer">
+	<input type="button" value="5 минут" onclick="fixedTime(300)">
+	<input type="button" value="10 минут" onclick="fixedTime(600)">
+	<input type="button" value="15 минут" onclick="fixedTime(900)">
+	<hr>
+	<center>
+		<h2 id="time">0:00:00:00</h2>
+	</center>
+</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

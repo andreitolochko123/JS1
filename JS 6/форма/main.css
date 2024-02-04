@@ -1,0 +1,32 @@
+body{
+  background: skyblue;
+}
+.form{
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  background: white;
+  margin: 100px auto 20px auto;
+  padding: 10px;
+}
+input{
+  width: 95%;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+}
+button{
+  font-size: 20px;
+  border: 2px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.red{
+  border: 2px solid red;
+}
+.green{
+  border: 2px solid green;
+}
